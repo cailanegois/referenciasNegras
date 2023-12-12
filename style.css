@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+header {
+    height: 130px;
+    margin-bottom: 40px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+header h1, header p {
+  text-align: center;
+    padding: 20px 0 10px 0;
+    text-transform: uppercase;
+   
+}
+
+#content {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
+    display: block;
+}
+
+.card {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #000;
+    max-height: 100%;
+    vertical-align: top; 
+    width: 300px;
+   
+}
+
+.card img {
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+
+/*altura automatica*/
+.card details {
+    display: inline-block;
+    max-width: 300px;
+    height: auto;
+    text-align: justify;
+}
+
+.card summary {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.card p {
+    padding: 0 10px;
+}
+
+.card blockquote {
+    color: #777;
+    font-style: italic;
+    padding: 10px 5px;
+}

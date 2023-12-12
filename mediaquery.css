@@ -1,0 +1,46 @@
+@media (max-width: 768px ) {
+ 
+   header {
+    margin-bottom: 20px;
+    height: 150px;
+   }
+ 
+   header h1 {
+     font-size: 25px;
+   }
+
+   .card {
+    display: block;
+    margin: 20px auto;
+    color:#fff;
+    background-color: rgb(35, 34, 34);
+   }
+
+   .card figure img {
+    width: 100%;
+    height: 100%;
+   }
+
+   .card details {
+    width: 100%;
+   }
+
+   .card summary {
+    font-size: 16px;
+   }
+   
+   .card p {
+    font-size: 14px;
+   }
+}
+
+/*fazer centralizaçção do painel */
+
+@media (min-width: 768px) and  (max-width:976px){
+  
+    .painel-card {
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+}
